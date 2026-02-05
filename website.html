@@ -1,0 +1,465 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RedRoute Travels</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+    
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        h2 {
+            color: red;
+            text-align: center;
+        }
+
+        section {
+            padding: 30px;
+        }
+
+        table {
+            margin: auto;
+            border-collapse: collapse;
+            width: 70%;
+        }
+
+        table, th, td {
+            border: 2px solid red;
+            padding: 10px;
+            text-align: center;
+            color: #000000;
+
+        }
+
+        th {
+            background-color: black;
+            color: rgb(255, 255, 255);
+            border: 2px solid red;
+        }
+
+        form {
+            width: 50%;
+            margin: auto;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border: 2px solid red;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 8px;
+        }
+
+        input[type=submit] {
+            background-color: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        
+        .top-btn {
+            background:#fff;
+            border:none;
+            padding:10px 18px;
+            margin:5px;
+            border-radius:20px;
+            font-weight:600;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .top-btn:hover {
+            background:#ff6f91;
+            color:white;
+        }
+
+        .cta-btn {
+            background:#ff6f91;
+            color:white;
+            border:none;
+            padding:12px 22px;
+            margin:8px;
+            border-radius:25px;
+            font-size:15px;
+            font-weight:600;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .cta-btn:hover {
+            background:#d6336c;
+            transform:translateY(-3px);
+        }
+    
+    </style>
+</head>
+
+<body>
+
+    <div style="
+    background:#ffdde1;
+    padding:15px;
+    text-align:center;
+    position:sticky;
+    top:0;
+    z-index:1000;
+">
+    <button class="top-btn">About Us</button>
+    <button class="top-btn">Discounts</button>
+    <button class="top-btn">Best Deals</button>
+    <button class="top-btn">Travel Tips</button>
+    <button class="top-btn">Contact</button>
+</div>
+
+
+
+   
+    <section style="background-color:#fff0f0;  text-align:center;">
+    <h2 style="margin-bottom:25px; color:#333;">Popular Destinations</h2>
+
+    <ul style="
+        list-style:none;
+        padding:0;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:15px;
+    ">
+        <li style="
+            background:#ffe5e5;
+            padding:12px 25px;
+            border-radius:20px;
+            font-weight:600;
+            color:#444;
+            box-shadow:0 4px 8px rgba(0,0,0,0.08);
+            transition:transform 0.3s, background 0.3s;
+        ">Dubai</li>
+
+        <li style="background:#ffe5e5; padding:12px 25px; border-radius:20px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.08);">
+            Paris
+        </li>
+
+        <li style="background:#ffe5e5; padding:12px 25px; border-radius:20px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.08);">
+            Maldives
+        </li>
+
+        <li style="background:#ffe5e5; padding:12px 25px; border-radius:20px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.08);">
+            Switzerland
+        </li>
+
+        <li style="background:#ffe5e5; padding:12px 25px; border-radius:20px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.08);">
+            Singapore
+        </li>
+
+        <li style="background:#ffe5e5; padding:12px 25px; border-radius:20px; font-weight:600; color:#444; box-shadow:0 4px 8px rgba(0,0,0,0.08);">
+            Thailand
+        </li>
+    </ul>
+</section>
+
+
+    
+    <section align="center">
+        <h2>Travel Gallery</h2>
+        <img src="images.jpeg" width="350" height="200" style="border:3px solid red; border-radius:10px;">
+        <img src="images1.jpeg" width="350" height="200" style="border:3px solid red; border-radius:10px;">
+        <img src="images2.jpeg" width="350" height="200" style="border:3px solid red; border-radius:10px;">
+        <img src="images4.jpeg" width="350" height="200" style="border:3px solid red; border-radius:10px;">
+    
+        
+    </section>
+
+    height="400"
+    <section>
+        <h2>Tour Packages</h2>
+        <table>
+            <tr>
+                <th>Destination</th>
+                <th>Duration</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Dubai</td>
+                <td>5 Days</td>
+                <td>₹60,000</td>
+            </tr>
+            <tr>
+                <td>Maldives</td>
+                <td>4 Days</td>
+                <td>₹75,000</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td>6 Days</td>
+                <td>₹95,000</td>
+            </tr>
+        </table>
+    </section>
+
+    
+    <section style="
+    background: linear-gradient(135deg, #fff0f5, #ffe4e1);
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    border-radius: 25px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+    position: relative;
+">
+
+    <h2 style="
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 40px;
+        color: #d6336c;
+    ">
+        ✈️ Travel Inquiry Form 🏖️
+    </h2>
+
+    <form style="
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: start;
+    ">
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/user.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <input type="text" placeholder="Full Name" required style="
+                width: 100%;
+                padding: 12px 12px 12px 40px;
+                border-radius: 12px;
+                border:1px solid #ccc;
+            ">
+        </div>
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/email.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <input type="email" placeholder="Email Address" required style="
+                width: 70%;
+                padding: 12px 12px 12px 40px;
+                border-radius: 12px;
+                border:1px solid #ccc;
+            ">
+        </div>
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/phone.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <input type="tel" placeholder="Contact Number" required style="
+                width: 100%;
+                padding: 12px 12px 12px 40px;
+                border-radius: 12px;
+                border:1px solid #ccc;
+            ">
+        </div>
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/globe.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <select style="width:100%; padding:12px 12px 12px 40px; border-radius:12px; border:1px solid #ccc;" required>
+                <option value="">-- Select Destination --</option>
+                <option>Dubai</option>
+                <option>Paris</option>
+                <option>Maldives</option>
+                <option>Switzerland</option>
+                <option>Thailand</option>
+            </select>
+        </div>
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/calendar.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <input type="date" required style="width:100%; padding:12px 12px 12px 40px; border-radius:12px; border:1px solid #ccc;">
+        </div>
+
+        
+        <div style="position: relative;">
+            <img src="https://img.icons8.com/color/24/000000/money.png" style="position:absolute; left:10px; top:50%; transform: translateY(-50%);" />
+            <select style="width:100%; padding:12px 12px 12px 40px; border-radius:12px; border:1px solid #ccc;" required>
+                <option value="">-- Select Budget --</option>
+                <option>Below ₹50,000</option>
+                <option>₹50,000 - ₹80,000</option>
+                <option>Above ₹80,000</option>
+            </select>
+        </div>
+
+        
+        <div style="grid-column: 1 / -1;">
+    <label style="font-weight:600; font-size:18px;">Travel Preferences:</label>
+    <div style="display:flex; flex-wrap:wrap; gap:15px; margin-top:10px; justify-content:center;">
+
+        <!-- Luxury -->
+        <div class="preference" data-value="Luxury">
+            <img src="https://img.icons8.com/color/64/000000/luxury.png" alt="Luxury" />
+            <span>Luxury</span>
+            <input type="checkbox" name="preferences" value="Luxury" style="display:none;">
+        </div>
+
+        <!-- Budget -->
+        <div class="preference" data-value="Budget">
+            <img src="https://img.icons8.com/color/64/000000/money-bag.png" alt="Budget" />
+            <span>Budget</span>
+            <input type="checkbox" name="preferences" value="Budget" style="display:none;">
+        </div>
+
+        <!-- Adventure -->
+        <div class="preference" data-value="Adventure">
+            <img src="https://img.icons8.com/color/64/000000/mountain.png" alt="Adventure" />
+            <span>Adventure</span>
+            <input type="checkbox" name="preferences" value="Adventure" style="display:none;">
+        </div>
+
+        <!-- Family -->
+        <div class="preference" data-value="Family">
+            <img src="https://img.icons8.com/color/64/000000/family.png" alt="Family" />
+            <span>Family</span>
+            <input type="checkbox" name="preferences" value="Family" style="display:none;">
+        </div>
+
+       
+
+        <!-- Adventure + Water Sports -->
+        <div class="preference" data-value="Water Sports">
+            <img src="https://img.icons8.com/color/64/000000/surfing.png" alt="Water Sports" />
+            <span>Water Sports</span>
+            <input type="checkbox" name="preferences" value="Water Sports" style="display:none;">
+        </div>
+
+        <!-- Nature -->
+        <div class="preference" data-value="Nature">
+            <img src="https://img.icons8.com/color/64/000000/forest.png" alt="Nature" />
+            <span>Nature</span>
+            <input type="checkbox" name="preferences" value="Nature" style="display:none;">
+        </div>
+
+    </div>
+</div>
+
+<!-- Add this CSS in your <style> section -->
+<style>
+    .preference {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        cursor:pointer;
+        border:2px solid transparent;
+        padding:10px;
+        border-radius:15px;
+        transition: all 0.3s;
+        width:100px;
+        text-align:center;
+    }
+
+    .preference img {
+        width:50px;
+        height:50px;
+        margin-bottom:5px;
+        transition: transform 0.3s;
+    }
+
+    .preference span {
+        font-weight:600;
+        font-size:14px;
+        color:#555;
+    }
+
+    .preference:hover {
+        transform: translateY(-5px);
+        border-color:#ff6f91;
+        box-shadow:0 6px 15px rgba(0,0,0,0.15);
+    }
+
+    .preference.selected {
+        border-color:#d6336c;
+        background:#ffe5e5;
+    }
+</style>
+
+<!-- Add this JS before closing </body> -->
+
+
+    </form>
+
+</section>
+
+
+        
+        
+        <input type="submit" value="Submit Inquiry" style="
+            background:#ff6f91;
+            color:white;
+            border:none;
+            padding:15px;
+            font-size:16px;
+            font-weight:600;
+            border-radius:25px;
+            cursor:pointer;
+            transition:0.3s;
+        " onmouseover="this.style.background='#d6336c'" onmouseout="this.style.background='#ff6f91'">
+    </form>
+</section>
+
+
+    <section style="
+    background:linear-gradient(135deg, #fff0f5, #ffe4e1);
+    padding:60px 20px;
+    text-align:center;
+    border-radius:20px;
+    margin:40px auto;
+    max-width:900px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+">
+    <h2 style="font-size:36px; margin-bottom:20px; color:#333;">
+        About Us
+    </h2>
+
+    <p style="font-size:18px; line-height:1.7; color:#555;">
+        Welcome to <b style="color:#d6336c;">Dream Travels</b> ✈️  
+        <br><br>
+        <i><b>Bag bharo nikal pado...</b></i> 🌍  
+        <br><br>
+        We provide <b>luxury</b>, <u>budget</u>, and <b>custom travel packages</b>
+        designed to turn your travel dreams into unforgettable experiences.
+    </p>
+
+    <div style="margin-top:30px;">
+        <button class="cta-btn">Explore Deals</button>
+        <button class="cta-btn">View Discounts</button>
+        <button class="cta-btn">Travel Tips</button>
+    </div>
+</section>
+
+  
+    <footer style="background-color:black; color:white; padding:15px;">
+        <p align="center">
+            © 2026 RedRoute Travels | All Rights Reserved
+        </p>
+    </footer>
+
+    <script>
+    const prefs = document.querySelectorAll('.preference');
+    prefs.forEach(pref => {
+        pref.addEventListener('click', () => {
+            pref.classList.toggle('selected');
+            const checkbox = pref.querySelector('input[type="checkbox"]');
+            checkbox.checked = !checkbox.checked;
+        });
+    });
+</script>
+
+</body>
+</html>
+
+
