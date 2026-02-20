@@ -1,0 +1,32 @@
+organization {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, sans-serif;
+}
+
+employee {
+    display: table-row;
+}
+
+employee > firstName,
+employee > lastName,
+employee > gender,
+employee > department,
+employee > designation,
+employee > salary,
+employee > email,
+employee > phone,
+employee > hireDate {
+    display: table-cell;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+employee::before {
+    content: attr(empID);
+    display: table-cell;
+    border: 1px solid black;
+    padding: 6px;
+    font-weight: bold;
+}

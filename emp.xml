@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="emp.css"?>
+<!DOCTYPE organization SYSTEM "emp.dtd">
+
+<organization>
+    <employee empID="101">
+        <firstName>Tejaswini</firstName>
+        <lastName>Patil</lastName>
+        <gender>Female</gender>
+        <department>IT</department>
+        <designation>Software Engineer</designation>
+        <salary>60000</salary>
+        <email>tejaswini@gmail.com</email>
+        <phone>9876543210</phone>
+        <hireDate>2022-01-15</hireDate>
+    </employee>
+
+    <employee empID="102">
+        <firstName>Divya</firstName>
+        <lastName>Patil</lastName>
+        <gender>Female</gender>
+        <department>HR</department>
+        <designation>HR Manager</designation>
+        <salary>75000</salary>
+        <email>Divya@gmail</email>
+        <phone>9123456780</phone>
+        <hireDate>2021-06-10</hireDate>
+    </employee>
+
+    <employee empID="103">
+        <firstName>Raj</firstName>
+        <lastName>Mehra</lastName>
+        <gender>Male</gender>
+        <department>Finance</department>
+        <designation>Accountant</designation>
+        <salary>55000</salary>
+        <email>raj@gmail.com</email>
+        <phone>9988776655</phone>
+        <hireDate>2020-09-20</hireDate>
+    </employee>
+</organization>

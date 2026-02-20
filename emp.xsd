@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:element name="organization">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="employee" maxOccurs="unbounded">
+                    <xsd:complexType>
+                        <xsd:sequence>
+                            <xsd:element name="firstName" type="xsd:string"/>
+                            <xsd:element name="lastName" type="xsd:string"/>
+                            <xsd:element name="gender" type="xsd:string"/>
+                            <xsd:element name="department" type="xsd:string"/>
+                            <xsd:element name="designation" type="xsd:string"/>
+                            <xsd:element name="salary" type="xsd:decimal"/>
+                            <xsd:element name="email" type="xsd:string"/>
+                            <xsd:element name="phone" type="xsd:string"/>
+                            <xsd:element name="hireDate" type="xsd:date"/>
+                        </xsd:sequence>
+
+                        <xsd:attribute name="empID" type="xsd:string" use="required"/>
+                    </xsd:complexType>
+                </xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+</xsd:schema>
